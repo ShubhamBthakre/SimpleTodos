@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.simple-todos-container {
+  min-height: 100vh 0px;
+  display: flex;
+  justify-content: center;
+  background-color: #ffc2a0;
+}
+.card-container {
+  background-color: #ffffff;
+  width: 90%;
+  margin: 60px 0px;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list-container {
+  padding-left: 0px;
+}
+.heading {
+  color: #ff8542;
+  font-size: 35px;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 62px;
+  }
+}
